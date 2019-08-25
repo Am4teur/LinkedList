@@ -22,21 +22,18 @@ class Product:
         self.name = name
 
 if(__name__ == "__main__"):
-    ll = Node(0)
-    ll.next = Node(1)
-    ll.next.next = Node(0)
+    node0 = Node(0)
+    node0.next = Node(1)
+    node0.next.next = Node(0)
 
-    ll.rmvDup()
-    ll.transverse()
-    ll.transverse()
+    node0.transverse()
+    node0.rmvDup()
+    node0.transverse()
 
     p = Product("shoes")
-    ll = Node(p)
-    ll.next = Node(Product("sneakers"))
-    ll.next.next = Node(p)
+    node0 = Node(p)
+    node0.next = Node(Product("sneakers"))
+    node0.next.next = Node(p)
 
-    ll.rmvDup()
-    ll.transverse()
-    ll.transverse()
-
-        
+    node0.rmvDup()
+    node0.transverse()
