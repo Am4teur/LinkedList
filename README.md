@@ -1,2 +1,3 @@
 # LinkedList
-A base to linked lists in python and some simple exercices.
+A base to simple linked lists in python and some simple exercices.
+
